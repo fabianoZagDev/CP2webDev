@@ -6,5 +6,5 @@ Este projeto é a estruturação do JS da pagina da Vinheria Agnello.
 
 - João Vitor Boht | RM
 - Fabiano Zague   | RM
-- Matheus Condez  | RM
+- Matheus Condez  | RM 556954
 - Pedro Certo     | 556268
