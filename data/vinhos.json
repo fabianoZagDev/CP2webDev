@@ -1,0 +1,11 @@
+{
+    "vinho01": {
+        "subtitulo": "Ótimo vinho da Itália",
+        "descricao": "descricao vinho 01",
+        "estoque": 22,
+        "uva": "uva_tal",
+        "pais_origem": "França",
+        "bandeira_pais_origem": "italia.png",
+        "imagem_vinho": "vinho01.png"
+    }
+}
