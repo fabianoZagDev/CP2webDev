@@ -61,7 +61,8 @@ color: inherit;
   background-color: white;
   border: 3px solid #2B1010;
   color: #2B1010;
-  width: 230px;
+  width: 260px;
+  height: 390px;
   padding: 8px;
   display: flex;
   justify-content: center;
@@ -87,7 +88,13 @@ color: inherit;
   align-items: flex-start;
 }
 .boxVinho .infosVinho .nomeVinho{
+  width: 95px;
   font-size: 20px;
+  
+}
+.boxVinho .infosVinho .precoVinho{
+  margin: 15px 0;
+  font-size: 15px;
 }
 .bandeiraVinho{
   width: 20px !important;
