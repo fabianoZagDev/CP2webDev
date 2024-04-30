@@ -65,6 +65,8 @@ function aplicarDesconto(){
 function adicionaCarrinho(){
 
     const qtdVinhos = qtd_vinho_element.value
+    
+
 
     calculadora()
     
