@@ -1,0 +1,39 @@
+*{
+    background-color: rgb(49, 19, 15);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    flex-direction: column;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main .pergunta{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+main .inputs{
+    display: flex;
+    flex-direction: row;
+}
+
+main .inputs .menor18{
+    margin: 5px;
+    border: 0.2px solid white;
+    padding: 20px;
+}
+main .inputs .maior18{
+    margin: 5px;
+    border: 0.2px solid white;
+    padding: 20px;
+}
