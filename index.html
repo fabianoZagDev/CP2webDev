@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início</title>
+    <title>Vinho</title>
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel='stylesheet' href="./css/styles.css">
+    <link rel='stylesheet' href="./css/index.css"
 </head>
-<body>
-    
+<body onload="carregarVinho()">
+    <div class="container">
+        <nav>
+            
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="Logo Vinheria Agnello">
+            </div>
+
+            <div class="nav-btn-container">
+                <a href="/pages/login.html" class="btn">Login</a>
+            </div>
+        </nav>
+        <main>
+            <section>
+                <div class="modal">
+                    <h2>
+                        Você tem mais de 18 anos?
+                    </h2>
+
+                    <div class="opcoes">
+                        <a href="#">Sim</a>
+                        <a href="https://www.youtube.com/watch?v=0wUxEMxJ8Gc">Não</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
 
 
-    <script src="js/script.js"></script>
+
+    <scipt src="../js/script.js"></scipt>
 </body>
 </html>
