@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login JS</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    
-    <form>
+    <div class="container">
+        <nav>
+            
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="Logo Vinheria Agnello">
+            </div>
+        </nav>
+        <main>
+            <div class="container-img voltar">
+                <a href="../index.html">
+                    <img src="../assets/icones/voltar.svg" alt="botão voltar">
+                </a>
+                
+            </div>
+            <section>
+                <form class="form login">
+                    <h3>Login</h3>
+                    <input type="text" placeholder="Login" id="Login">
+                    <input type="password" placeholder="Senha" id="Senha">
+                    <input type="submit" onclick="login()">
+                </form>
+            </section>
+        </main>
 
-        <h3>Login</h3>
-        <input type="text" placeholder="Login" id="Login">
-        <input type="password" placeholder="Senha" id="Senha">
-        <input type="submit" onclick="login()">
-
-    </form>
+    </div>
 
     <script src="../js/script.js"></script>
 </body>
