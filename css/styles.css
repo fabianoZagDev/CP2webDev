@@ -39,3 +39,9 @@ nav {
     border-bottom: 1px solid white;
     color: white;
 }
+.container-img{
+    padding: 10px;
+}
+.voltar{
+    width: 50px;
+}
