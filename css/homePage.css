@@ -32,7 +32,7 @@ header {
   }
   
   .cadastro {
-    background-color: #fae6c8; 
+    background-color: white; 
     padding: 10px 15px; 
     border-radius: 5px; 
   }
@@ -42,4 +42,42 @@ header {
     font-weight: bold;
     margin: 0; 
   }
+
+.Container-catalogo{
+  margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: none;
+    padding: 40px;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+}
+
+.boxVinho{
+  background-color: white;
+  border: 3px solid #2B1010;
+  color: #2B1010;
+  width: 230px;
+  padding: 8px;
+  display: flex;
+}
+.boxVinho img{
+  width: 90px;
+  margin: 16px;
+}
+.boxVinho .infosVinho{
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  display: flex;
+  width: 50px;
+}
+.boxVinho .infosVinho .nomeVinho{
+  font-size: 20px;
+}
+
   
