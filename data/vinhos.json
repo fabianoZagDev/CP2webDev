@@ -2,6 +2,7 @@
     "vinho01": {
         "subtitulo": "Ótimo vinho da Itália",
         "descricao": "descricao vinho 01",
+        "preco": 120.10,
         "estoque": 22,
         "uva": "uva_tal",
         "pais_origem": "França",
