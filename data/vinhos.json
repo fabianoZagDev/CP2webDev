@@ -2,12 +2,34 @@
     "vega_sicilia": {
         "nome": "Vega Sicilia",
         "subtitulo": "Espanha·Ribera del Duero·Vega Sicilia·Vinho tinto·Tinto Fino",
-        "descricao": "This wine has an intense ripe cherry colour, with the lively edge of a wine that is always at its best. The aroma prevails with hints of roast from the wood, and touches of hazelnut from its oxidative evolution from its years in the cask. It has generous tastes of old but clean wood, with dry tannins that are pleasantly embittered by the oak, together with the sensation of its light sweetness of its alcohol. It is a pedigree wine with a long, lasting taste.",
+        "descricao": "Este vinho possui uma cor cereja madura intensa, com a borda vibrante de um vinho que está sempre no seu melhor. O aroma prevalece com notas de torrefação da madeira e toques de avelã provenientes da sua evolução oxidativa nos anos em barril. Tem sabores generosos de madeira antiga, porém limpa, com taninos secos que são agradavelmente amargos pelo carvalho, juntamente com a sensação de sua leve doçura do álcool. É um vinho de linhagem com um sabor longo e duradouro.",
         "preco": 7732.52,
         "estoque": 22,
         "uva": "100% Tinto Fino",
         "pais_origem": "Espanha",
         "bandeira_pais_origem": "paises/es.png",
         "imagem_vinho": "vinhos/vega_sicilia.png"
+    },
+    "primitivo_di_manduria": {
+        "nome": "Primitivo di Manduria 2022",
+        "subtitulo": "Itália·Primitivo di Manduria·Bastioni della Rocca·Vinho tinto·Primitivo",
+        "descricao": "Aninhada pela suave brisa do Mar Jônico, Manduria ostenta uma paisagem encantadora que abriga este vinho requintado. As terras beijadas pelo sol da região são caracterizadas por uma cor vermelha intensa, resultado da abundância de óxidos de ferro presentes no solo. É dentro deste berço natural que o Primitivo di Manduria floresce, produzindo alguns dos melhores vinhos do Sul da Itália.",
+        "preco": 129.00,
+        "estoque": 43,
+        "uva": "Primitivo",
+        "pais_origem": "Itália",
+        "bandeira_pais_origem": "paises/it.png",
+        "imagem_vinho": "vinhos/primitivo.png"
+    },
+    "quinta_do_vale_meao": {
+        "nome": "Quinta do Vale Meão",
+        "subtitulo": "Portugal·Douro·Quinta do Vale Meão·Vinho tinto·Corte",
+        "descricao": "Melhor tinto de Portugal na safra 2016 para a Wine Spectator, o Quinta do Vale Meão é um verdadeiro ícone entre os tintos do Douro. É talhado com uvas da histórica Quinta do Vale Meão, que Fernando Nicolau de Almeida, o mais célebre enólogo português de todos os tempos, apontou como o melhor terroir de Portugal para a produção de vinhos tintos ainda nos anos 1950. Desde a sua primeira safra, em 1999, o vinho tem recebido todos os anos prêmios impressionantes da imprensa especializada, incluindo o de \"Melhor Vinho de Portugal\" na safra 2000 pela Revista de Vinhos, o quarto lugar no ranking dos melhores vinhos do mundo de 2014 da Wine Spectator, além dos 96 pontos de Robert Parker para a safra 2011. Rico, denso e incrivelmente complexo, é um tinto que pode evoluir por muitos anos. Uma unanimidade!",
+        "preco": 1458.90,
+        "estoque": 123,
+        "uva": "60% Touriga Nacional, 35% Touriga Franca, 3% Tinta Barroca, 2% Tinta Roriz",
+        "pais_origem": "Portugal",
+        "bandeira_pais_origem": "paises/pt.png",
+        "imagem_vinho": "vinhos/quinta_do_vale_meao.png"
     }
 }
