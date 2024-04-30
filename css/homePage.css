@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #2b1010; 
+    padding: 20px; 
+    color: white;
+  }
+  
+  p {
+    font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    margin: 0; 
+  }
+  
+  nav {
+    display: flex; 
+    align-items: center;
+  }
+  
+  .contato, .login, .cadastro {
+    margin-left: 20px; 
+  }
+  .contato a, .login a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+  }
+  
+  .contato a:hover, .login a:hover {
+    color: #007bff; 
+  }
+  
+  .cadastro {
+    background-color: #fae6c8; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+  }
+  
+  .cadastro p {
+    color: #2b1010; 
+    font-weight: bold;
+    margin: 0; 
+  }
+  
