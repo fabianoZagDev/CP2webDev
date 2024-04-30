@@ -23,7 +23,9 @@ nav {
 .logo-container img {
     height: 50px;
 }
-
+#subtitulo{
+    width: 310px;
+}
 main {
     display: flex;
     justify-content: center;
@@ -37,6 +39,8 @@ main {
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .vinho-container > div {
@@ -47,10 +51,8 @@ main {
     max-width: 300px;
     height: auto;
     margin-right: 20px;
-}
-
-.detalhes {
-    flex: 1;
+    margin-left: auto; /* Alinhar à direita */
+    margin-right: auto; /* Alinhar à esquerda */
 }
 
 .principal {
@@ -68,6 +70,7 @@ main {
     height: auto;
     margin-right: 10px;
 }
+
 .comprar {
     background-color: #333;
     color: #fff;
@@ -81,6 +84,7 @@ main {
 .comprar:hover {
     background-color: #555;
 }
+
 .uva {
     display: flex;
     align-items: center;
@@ -95,4 +99,55 @@ main {
 
 .descricao-container {
     margin-top: 20px;
+    width: 50%;
+}
+#descricao{
+    text-align: justify;
+}
+.vinho-img-container{
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.cupom-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    margin: 0px 0px 20px 0px;
+}
+.cupom-container button {
+    background-color: #333;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.cupom-container input{
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 3px;
+    text-align: center;
+}
+.cupom-container label{
+    font-size: 14px;
+}
+.qtd-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+#qtd-vinho{
+    border: 1px solid black;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+#nome-uva{
+    width: 290px;
 }
