@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinho</title>
+
+    <link rel='stylesheet' href="../css/vinhos.css">
 </head>
-<body>
-    
+<body onload="carregarVinho()">
+    <div class="container">
+        <nav>
+            
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="Logo Vinheria Agnello">
+            </div>
+
+            <div class="nav-btn-container">
+                <a href="#" class="btn">Adega</a>
+            </div>
+        </nav>
+        <main>
+            <section>
+                <div class="vinho-container">
+                    <div>
+                        <img src="" alt="Imagem do vinho" id="vinho-img">
+                    </div>
+                    <div class="detalhes">
+                        <div class="principal">
+                            <h2 id="nome">
+                                Vinho
+                            </h2>
+
+                            <div class="origem">
+                                <div>
+                                    <img src="" alt="Imagem pais origem" id="img-pais">
+                                </div>
+                                <p id="nome-origem"></p>
+                            </div>
+
+                            <div class="uva">
+                                <div>
+                                    <img src="../assets/icones/uva.svg" alt="Icone Uva">
+                                </div>
+                                <p id="nome-uva"></p>
+                            </div>
+                        </div>
+                        <p id='subtitulo'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+
+                        <h4>R$ <span id="preco">10,00</span></h4>
+                        
+                        <div class="cupom-container">
+                            <label for="cupom-id">Cupom</label>
+                            <input type="text" maxlength="10" id="cupom-id" placeholder="Digite seu cupom aqui!">
+                            <button onclick="aplicarDesconto()">
+                                Aplicar
+                            </button>
+                        </div>
+         
+                        
+                        <label for="qtd-vinho">Quantidade:</label>
+                        <input type="number" id='qtd-vinho' min="1" onchange="verificaEstoque()" placeholder="Digite a quantidade!">
+
+                        <button class="btn comprar" onclick="adicionaCarrinho()">
+                            Adicionar ao Carrinho
+                        </button>
+                    </div>
+                    <div class="descricao-container">
+                        <h3>Descrição</h3>
+
+                        <p id="descricao">
+
+                        </p>
+
+                    </div>
+                    <div class="comentarios">
+
+
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+
+
+    <script src="../js/vinho.js"></script>
+    <scipt src="../js/script.js"></scipt>
 </body>
 </html>
