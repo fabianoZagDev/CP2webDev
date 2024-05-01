@@ -38,6 +38,28 @@ async function carregarVinho(){
     origem_nome_element.innerText = vinho['pais_origem']
     origem_img_element.src = `../assets/${vinho['bandeira_pais_origem']}`
     qtd_vinho_element.max = vinho['estoque']
+
+    const pratos = vinho['pratos']
+
+    for(prato of pratos){
+        adicionaPrato(prato)
+    }
+
+}
+
+function adicionaPrato(prato){
+    const pratos_element = document.getElementById("pratos") 
+    
+    let divPrato = document.createElement("div")
+    divPrato.setAttribute("class", "prato")
+    
+    divPrato.innerHTML = `
+        <img src='../assets/${prato['img']}'>
+        <p>${prato['label']}</p>
+    `
+
+    pratos_element.appendChild(divPrato)
+    
 }
 
 function verificarEstoque(){
@@ -56,7 +78,7 @@ function aplicarDesconto(){
     const cupom = cupom_element.value
 
     // Verifica se o valor e igual a "webdev"
-    if(cupom == "webdev"){
+    if(cupom == "FIAP2024"){
         // Aplica o desconto
         desconto = 0.10
         tem_desconto = true
