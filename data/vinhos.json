@@ -8,7 +8,21 @@
         "uva": "100% Tinto Fino",
         "pais_origem": "Espanha",
         "bandeira_pais_origem": "paises/es.png",
-        "imagem_vinho": "vinhos/vega_sicilia.png"
+        "imagem_vinho": "vinhos/vega_sicilia.png",
+        "pratos": [
+            {
+                "label": "Carne de Vaca",
+                "img": "pratos/carne_de_vaca.png"
+            },
+            {
+                "label": "Cordeiro",
+                "img": "pratos/cordeiro.png"
+            },
+            {
+                "label": "Carne de Caça",
+                "img": "pratos/carne_de_caca.png"
+            }
+        ]
     },
     "primitivo_di_manduria": {
         "nome": "Primitivo di Manduria 2022",
@@ -19,7 +33,25 @@
         "uva": "Primitivo",
         "pais_origem": "Itália",
         "bandeira_pais_origem": "paises/it.png",
-        "imagem_vinho": "vinhos/primitivo.png"
+        "imagem_vinho": "vinhos/primitivo.png",
+        "pratos": [
+            {
+                "label": "Carne de Vaca",
+                "img": "pratos/carne_de_vaca.png"
+            },
+            {
+                "label": "Cordeiro",
+                "img": "pratos/cordeiro.png"
+            },
+            {
+                "label": "Aves",
+                "img": "pratos/aves.png"
+            },
+            {
+                "label": "Massa",
+                "img": "pratos/massa.png"
+            }
+        ]
     },
     "quinta_do_vale_meao": {
         "nome": "Quinta do Vale Meão",
@@ -30,6 +62,24 @@
         "uva": "60% Touriga Nacional, 35% Touriga Franca, 3% Tinta Barroca, 2% Tinta Roriz",
         "pais_origem": "Portugal",
         "bandeira_pais_origem": "paises/pt.png",
-        "imagem_vinho": "vinhos/quinta_do_vale_meao.png"
+        "imagem_vinho": "vinhos/quinta_do_vale_meao.png",
+        "pratos": [
+            {
+                "label": "Carne de Vaca",
+                "img": "pratos/carne_de_vaca.png"
+            },
+            {
+                "label": "Cordeiro",
+                "img": "pratos/cordeiro.png"
+            },
+            {
+                "label": "Aves",
+                "img": "pratos/aves.png"
+            },
+            {
+                "label": "Carne de Caça",
+                "img": "pratos/carne_de_caca.png"
+            }
+        ]
     }
 }
